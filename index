@@ -438,8 +438,8 @@ const OPTIONS = [
   { id:'ligne',    label:'Création de la ligne directrice', sub:'Brief créatif & direction artistique', price:10 },
   { id:'script',   label:'Création du script',          sub:'Écriture complète du scénario',           price:10 },
   { id:'nologo',   label:'Retrait du logo CUTSTUDIO',   sub:'Livraison sans filigrane',                price:40 },
-  { id:'rapide',   label:'Livraison rapide',            sub:'Priorité absolue & délai réduit',         price:70 },
-  { id:'vertical', label:'Format vertical',             sub:'TikTok / Reels / Stories 9:16',           price:15 },
+  { id:'rapide',   label:'Livraison rapide',            sub:'Priorité absolue & délai réduit',         price:30 },
+  { id:'vertical', label:'Format vertical',             sub:'TikTok / Reels / Stories 9:16',           price:5 },
 ];
 
 let ST = {
