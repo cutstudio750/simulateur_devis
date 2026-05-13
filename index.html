@@ -428,7 +428,7 @@ const VIDEO_TYPES = [
 ];
 
 const COUNTERS = [
-  { id:'duree',     label:'Durée de la vidéo',    meta:'30 €/min — minimum 0,5 min',            min:0.5, max:30,  step:0.5, def:1,  ppu:30,  fmt:v=>`${v} min`, pL:v=>fEur(v*50), lL:v=>`Vidéo — ${v} min` },
+  { id:'duree',     label:'Durée de la vidéo',    meta:'30 €/min — minimum 0,5 min',            min:0.5, max:30,  step:0.5, def:1,  ppu:30,  fmt:v=>`${v} min`, pL:v=>fEur(v*30), lL:v=>`Vidéo — ${v} min` },
   { id:'doubleurs', label:'Nombre de doubleurs',   meta:'5 €/doubleur',                          min:0,   max:10,  step:1,   def:0,  ppu:5,   fmt:v=>v===0?'Aucun':`${v}`, pL:v=>v===0?'Inclus':fEur(v*5), lL:v=>v>0?`${v} doubleur${v>1?'s':''}`:'null_skip' },
   { id:'figurants', label:'Nombre de figurants',   meta:'Inclus — aucun surcoût',                min:0,   max:50,  step:1,   def:4,  ppu:0,   fmt:v=>v===0?'Aucun':`${v}`, pL:_=>'Inclus', lL:_=>null },
 ];
